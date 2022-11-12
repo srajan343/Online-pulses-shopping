@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Oswald&family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    height: 9vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+main{
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header{
+    
+    background-color: rgb(148, 118, 213);
+   
+    height: 10vh;
+    
+}
+ul{
+    display: flex;
+
+}
+li{
+    margin: 0px 9px;
+    color: aliceblue;
+    list-style-type: none;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    
+    align-items: center;
+    margin: 0px 0px;
+}
+.logo img{
+    margin: 0;
+    padding: 5px 16px ;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 23px;
+    width: 30vw;
+    border-radius: 2px;
+    margin: 0px 16px 0px 56px;
+}
+.container{
+    
+    min-height: calc(100vh - 9vh - 10vh);
+}
+nav ul a:hover{
+    font-weight: bolder;
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+    overflow: hidden;
+}
+img{
+    margin: 6px 0;
+}
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px 12px;
+}
+.card{
+    display: flex;
+    margin: 8px auto;
+    padding: 2px;
+    max-width: 68vw;
+    overflow: scroll;
+}
+.heading{
+    display: flex;
+}
+
+
+
+
+
